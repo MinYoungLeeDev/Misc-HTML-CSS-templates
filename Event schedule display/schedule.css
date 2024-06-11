@@ -1,0 +1,53 @@
+.GWGButton{
+  transition: all 0.3s ease;
+	background-size:2px 100%;	
+	background-position:0 0, 100% 0;
+	background-repeat:no-repeat;
+  	background-color: white;
+	border-top: 2px solid #30d2ff;
+	border-left: 2px solid #30d2ff;
+	border-bottom: 2px solid blue;
+	border-right: 2px solid blue;
+	border-radius: 3px;
+	display: inline-block;
+	border-width: 2px;
+	border-style: transparent;
+	padding: 15px;
+  	margin: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+  	max-width: 260px;
+	text-align: center;
+  	box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+}
+.GWGButton:hover{
+  	color: white;
+	border: 2px solid black;
+  	background-color: black;
+  animation: ripples .3s;
+}
+
+.free_button{
+	transition: all 0.3s ease;
+	background-size:2px 100%;	
+	background-position:0 0, 100% 0;
+	background-repeat:no-repeat;
+	border-top: 2px solid #30d2ff;
+	border-left: 2px solid #30d2ff;
+	border-bottom: 2px solid blue;
+	border-right: 2px solid blue;
+	border-radius: 3px;
+	display: inline-block;
+	border-width: 2px;
+	border-style: transparent;
+	padding: 15px;
+  	margin-top: 10px;
+}
+
+.free_button:hover, #newsbutt:hover{
+	color: white;
+	border: 2px solid black;
+  	background-color: black;
+  animation: ripples .3s;
+}
